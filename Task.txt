@@ -1,0 +1,32 @@
+- Class GameManager:
+	- void startgame();
+	
+	
+	- void spawn(); // drag ship into the scene raycast?
+	- public int NbStruck; // nb tir ayant touché bateau
+	- int RemainStrike; // ballec
+
+CLass Player: 
+	- int nb_remaining_ship; // beateaux restants
+	- bool ishuman();
+	- void Attack(ishuman); 
+
+
+
+- definir une class Ship :
+	- int size;
+	- (tuple) position; // vertical horizontal
+	- bool sink; // coulé? true or false 
+
+
+- Taches: 
+	- Faire un menu :"Start game" + instruction
+	- Deroulement du jeu: 
+
+		1- joueur place bateaux
+		2- il tente de tirer sur les bateaux ennemis 
+		3- IA riposte au pif 
+	- Creer prefab de bateau:
+		- sprite
+		- script Ship
+		
