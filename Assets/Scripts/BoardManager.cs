@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BoardManager : MonoBehaviour
 {
+    /*
     static int size = 10;
     public GameObject prefabTile;
     public GameObject boardOrigin;
@@ -24,7 +25,19 @@ public class BoardManager : MonoBehaviour
                 GameObject tile = Instantiate(prefabTile);
                 tileTab[x, y] = tile.GetComponent<Tile>();
                 tile.transform.position = new Vector3(x, y, 0) + boardOrigin.transform.position;
+<<<<<<< Updated upstream
             }
         }
     }
+=======
+                *//*
+                GameObject tile = Instantiate(prefabTile, new Vector3(x, y, 0)+ boardOrigin.transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+                tile.transform.SetParent(GameObject.FindWithTag("Canvas").transform, false);
+                tile.transform.localScale = new Vector3(1, 1, 1);
+            }
+        }
+    }
+
+    */    
+>>>>>>> Stashed changes
 }
