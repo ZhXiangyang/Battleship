@@ -1,0 +1,6 @@
+**********Battleship ***********************
+1 - place your ship by draging and droping 
+2 - you can change orientation by pressing "R"
+3 - when your fleet configuration is ok then press click when ready
+4 - click on tile to hunt enemy ship
+5 - The player moves are a green crossbar | the ia moves are a checked image  
