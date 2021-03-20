@@ -1,0 +1,9 @@
+1- changer couleur des boutons si shipisonme
+2- mettre point de vie	
+3- Mettre du texte:
+	- instructions
+	- score
+	- Numerocase
+4- barre de vie pour chaque navire ?
+5: player attack ia
+
